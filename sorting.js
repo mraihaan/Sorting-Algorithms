@@ -1,3 +1,4 @@
+// SELECTION SORT
 function selectionSort(arr){
     for(var i=0; i<arr.length-1; i++){
         var currentMin = i;
@@ -13,6 +14,8 @@ function selectionSort(arr){
     return arr;
 }
 
+
+// INSERTION SORT
 function insertionSort(arr){
     for(var a=1; a<arr.length; a++){
         var left=1;
